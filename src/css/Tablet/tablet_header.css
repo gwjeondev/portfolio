@@ -1,0 +1,36 @@
+/* viewport width 1024 이하 */
+
+@media (max-width: 1024px) {
+
+  .header {
+    position: fixed;
+    z-index: 3;
+    width: 100%;
+  }
+  .header__container {
+    max-width: 200px;
+    padding: 10px 30px;
+    height: auto;
+    display: block;
+    font-size: 1.5rem;
+    background: rgba(45, 52, 54,.7);
+    border-radius: 0 0 0 30px ;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .header .header__list {
+    width: 100%;
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+  }
+  .header .header--list {
+      padding: 10px 0;
+  }
+  .header .header--list a:hover {
+    cursor: pointer;
+    color: #fff;
+  }
+}

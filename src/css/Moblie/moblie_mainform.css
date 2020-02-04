@@ -1,0 +1,9 @@
+/* viewport width 1024 이하 */
+
+@media (max-width: 768px) {
+    .mainform .mainform__title {
+        font-size: 1.7rem;
+
+    }
+}
+  

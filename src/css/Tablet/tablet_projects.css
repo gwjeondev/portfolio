@@ -1,0 +1,26 @@
+/* viewport width 1024 이하 */
+
+@media (max-width: 1024px) {
+  .projects {
+  }
+
+  .projects__container {
+  }
+  .projects .projects__title {
+  }
+
+  .projects .projects__list {
+  }
+
+  .projects .project--list {
+    width: 50%;
+  }
+
+  .project .project__title {
+  }
+  .project img {
+  }
+
+  .project .project__uselang {
+  }
+}
