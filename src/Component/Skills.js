@@ -10,13 +10,13 @@ import styled from "styled-components";
 //   margin: 30px;
 // `;
 
-const imgstyle = {
-  width: "150px",
-  height: "150px",
-  borderRadius: "30px",
-  boxShadow: "0px 0px 20px rgba(150, 150, 150, 1)",
-  margin: "30px"
-};
+// const imgstyle = {
+//   width: "150px",
+//   height: "150px",
+//   borderRadius: "30px",
+//   boxShadow: "0px 0px 20px rgba(150, 150, 150, 1)",
+//   margin: "30px"
+// };
 
 const Skills = () => {
   const [skillset, setSkillset] = useState([
@@ -78,7 +78,7 @@ const Skills = () => {
                 key={value.id}
               >
                 <div className={`skill__inner--${value.title}`}>
-                  <img src={value.img} style={imgstyle} alt={value.title} />
+                  <img src={value.img} alt={value.title} />
                   <span>{value.level}</span>
                 </div>
               </li>

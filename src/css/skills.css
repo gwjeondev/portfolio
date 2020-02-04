@@ -1,62 +1,68 @@
 .skills {
-    width: 100%;
-    background: url("https://images.unsplash.com/photo-1520509414578-d9cbf09933a1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2149&q=80");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+  width: 100%;
+  background: url("https://images.unsplash.com/photo-1520509414578-d9cbf09933a1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2149&q=80");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .skills__container {
-    margin: 0 auto;
-    padding: 100px 0;
-    max-width: 1300px;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
+  margin: 0 auto;
+  padding: 100px 0;
+  max-width: 1300px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
 }
 .skills .skills__title {
-    font-weight: bold;
-    width: 200px;
-    height: 70px;
-    background: rgba(255, 255, 255,.7);
-    border-radius: 30px 0 30px 0;
-    font-size: 3rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 0px 0px 20px rgba(150, 150, 150, 1);
+  font-weight: bold;
+  width: 200px;
+  height: 70px;
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 30px 0 30px 0;
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 20px rgba(150, 150, 150, 1);
 }
 .skills .skills__list {
-    margin-top: 50px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 .skills .skills--list {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 50%;
-    height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 250px;
 }
 
-.skills .skills--list>div {
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
+.skills img {
+  width: 150px;
+  height: 150px;
+  border-radius: 30px;
+  box-shadow: 0px 0px 20px rgba(150, 150, 150, 1);
+  margin: 30px;
+}
+.skills .skills--list > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.skills .skills--list>div>span {
-    color: #fff;
-    display: block;
-    font-size: 1.2rem;
-    font-weight: bold;
-    text-shadow: 4px 4px 8px rgba(150, 150, 150, 1);
-
- }
+.skills .skills--list > div > span {
+  color: #fff;
+  display: block;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-shadow: 4px 4px 8px rgba(150, 150, 150, 1);
+}
