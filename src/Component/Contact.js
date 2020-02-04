@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import "../css/contact.css";
+import "../css/Tablet/tablet_contact.css";
+import "../css/Moblie/moblie_contact.css";
 import styled from "styled-components";
 
 const Contact = () => {
@@ -9,7 +11,7 @@ const Contact = () => {
                 <div className="contact__title">Contact</div>
                 <div className="contact__info">
                     <div className="contact__email">gw4609@gamil.com</div>
-                    <div className="contact__cpyright">Copyright ⓒ 2020 geunwon Jeon All right reserved.</div>
+                    <div className="contact__cpyright">Copyright ⓒ geunwon Jeon All right reserved.</div>
                 </div>
             </div>
         </footer>

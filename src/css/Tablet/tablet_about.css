@@ -17,6 +17,7 @@
     }
     
     .about__info .info__avatar img{
+        width: 250px;
         margin-right: 0;
     }
     
