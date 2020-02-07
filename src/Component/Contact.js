@@ -10,7 +10,7 @@ const Contact = () => {
             <div className="contact__container">
                 <div className="contact__title">Contact</div>
                 <div className="contact__info">
-                    <div className="contact__email">gw4609@gamil.com</div>
+                    <div className="contact__email">gw4609@gmail.com</div>
                     <div className="contact__cpyright">Copyright ⓒ geunwon Jeon All right reserved.</div>
                 </div>
             </div>

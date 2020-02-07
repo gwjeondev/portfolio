@@ -14,14 +14,16 @@
 .projects .projects__title {
   width: 220px;
   height: 70px;
-  background: rgba(223, 230, 233, 1);
-  border-radius: 30px 0 30px 0;
+  /* background: rgba(223, 230, 233, 1);
+  border-radius: 30px 0 30px 0; */
   font-size: 3rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: 0px 0px 20px rgba(150, 150, 150, 1);
+  /* box-shadow: 0px 0px 20px rgba(150, 150, 150, 1); */
   font-weight: bold;
+  text-decoration-line: underline;
+  text-decoration-color: #ff7675;
 }
 
 .projects .projects__list {
