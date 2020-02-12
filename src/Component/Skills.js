@@ -23,46 +23,32 @@ const Skills = () => {
     {
       id: 1,
       title: "HTML",
-      img:
-        "https://raw.githubusercontent.com/won-developer/img/master/HTML.png",
-      level: "intermediate",
-      text: ""
+      level: "intermediate"
     },
     {
       id: 2,
       title: "CSS",
-      img: "https://raw.githubusercontent.com/won-developer/img/master/CSS.png",
-      level: "intermediate",
-      text: ""
+      level: "intermediate"
     },
     {
       id: 3,
       title: "JavaScript",
-      img: "https://raw.githubusercontent.com/won-developer/img/master/JS.png",
-      level: "intermediate",
-      text: ""
+      level: "intermediate"
     },
     {
       id: 4,
       title: "React",
-      img:
-        "https://raw.githubusercontent.com/won-developer/img/master/REACT_1.png",
-      level: "basic",
-      text: ""
+      level: "basic"
     },
     {
       id: 5,
       title: "C",
-      img: "https://raw.githubusercontent.com/won-developer/img/master/C.png",
-      level: "basic",
-      text: ""
+      level: "basic"
     },
     {
       id: 6,
       title: "SQL",
-      img: "https://raw.githubusercontent.com/won-developer/img/master/SQL.png",
-      level: "basic",
-      text: ""
+      level: "basic"
     }
   ]);
 
@@ -70,23 +56,16 @@ const Skills = () => {
     <div className="skills">
       <div className="skills__container">
         <div className="skills__title">Skills</div>
-        <ul className="skills__list skill">
-          {skillset.map(value => {
+        <div className="skills__set">
+          {skillset.map(skill => {
             return (
-              <li
-                className={`skills__list--${value.id} skills--list`}
-                key={value.id}
-              >
-                <div className={`skill__inner--${value.title}`}>
-                  <img src={value.img} alt={value.title} />
-                  <span>{value.level}</span>
-                </div>
-              </li>
+              <div className={`skills__${skill.title} skill`} key={skill.id}>
+                <div className={`${skill.title}`}><span>{skill.level}</span></div>
+              </div>
             );
           })}
-        </ul>
+        </div>
       </div>
-      aaaaa
     </div>
   );
 };

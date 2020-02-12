@@ -5,11 +5,7 @@ import "../css/Tablet/tablet_header.css";
 import "../css/Moblie/moblie_header.css";
 import { Link, Element , Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
 
-window.addEventListener('resize', () => {
-  if(window.innerWidth > 1024) {
 
-  }
-})
 const Header = () => {
   const [menu, setMenu] = useState([
     {

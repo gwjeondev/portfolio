@@ -3,9 +3,9 @@
 }
 
 .about__container {
-    padding: 100px 0;
+    padding: 80px 50px;
     margin: 0 auto;
-    max-width: 1300px;
+    max-width: 1200px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -18,7 +18,7 @@
     height: 70px;
     /* background: rgba(223, 230, 233,1.0);
     border-radius: 30px 0 30px 0; */
-    font-size: 3rem;
+    font-size: 2.7rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -35,18 +35,18 @@
 }
 
 .about__info .info__avatar img{
-    width: 500px;
+    width: 200px;
     border-radius: 500px;
     box-shadow: 0px 0px 20px rgba(150, 150, 150, 1);
     margin-right: 50px;
+    margin-bottom: 100px;
 }
 
 .info__info {
-    align-self: flex-start;
     padding: 30px 0 0 0;
 }
 .info__info .info--list {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     margin-bottom: 10px;
     color: rgba(99, 110, 114,1.0);
 }
@@ -54,14 +54,18 @@
 .info__info .info__list--1 {
     color: #000;
     font-weight: bold;
-    font-size: 2.5rem;
+    font-size: 2rem;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
 }
-.info__info .github {
-    margin-bottom: 15px;
+
+.info__info .info__list--1 div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 .info__info .info__list--1 .github__mark {
     width: 35px;
     height: 35px;
@@ -86,8 +90,8 @@
 }
 
 .info__info .info__list--5 {
-    margin-top: 50px;
+    margin-top: 25px;
     color: rgba(45, 52, 54,.5);
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     line-height: 2rem;
 }
