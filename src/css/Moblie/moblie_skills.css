@@ -1,0 +1,14 @@
+/* viewport width 1024 이하 */
+
+@media (max-width: 768px) {
+    .sks .sk {
+        width: 130px;
+        height: 130px;
+        background-size: 130px 130px;
+        margin: 15px 20px;
+      }
+      .sk .sk__level {
+        font-size: 1rem;
+      }
+  }
+    

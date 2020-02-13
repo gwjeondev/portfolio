@@ -1,6 +1,7 @@
 /* viewport width 1024 이하 */
 
 @media (max-width: 768px) {
+  
   .projects .project {
     flex-direction: column;
     height: 100%;

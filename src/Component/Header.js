@@ -3,10 +3,23 @@ import styled from "styled-components";
 import "../css/header.css";
 import "../css/Tablet/tablet_header.css";
 import "../css/Moblie/moblie_header.css";
-import { Link, Element , Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
-
+import { GiHamburgerMenu } from "react-icons/gi";
+import {
+  Link,
+  Element,
+  Events,
+  animateScroll as scroll,
+  scrollSpy,
+  scroller
+} from "react-scroll";
 
 const Header = () => {
+
+  const [toggle, setToggle] = useState(false);
+
+  const onClick = () => {
+    toggle ? setToggle(false) : setToggle(true);
+  }
   const [menu, setMenu] = useState([
     {
       id: 1,
@@ -31,13 +44,29 @@ const Header = () => {
   ]);
   return (
     <header className="header">
-      <div className="header__container">
+      <div className={`header__container ${toggle ? 'toggle' : ''}`}>
         <ul className="header__list">
           {menu.map(title => {
-            return <li className={`header__list--${title.id} header--list`} key={title.id}><Link activeClass="active" to={title.title} spy={true} smooth={true} duration={500}>{title.title}</Link></li>;
+            return (
+              <li
+                className={`header__list--${title.id} header--list`}
+                key={title.id}
+              >
+                <Link
+                  activeClass="active"
+                  to={title.title}
+                  spy={true}
+                  smooth={true}
+                  duration={500}
+                >
+                  {title.title}
+                </Link>
+              </li>
+            );
           })}
         </ul>
       </div>
+      <GiHamburgerMenu id="toggle-btn" className={`${toggle ? 'toggle' : ''}`}onClick={onClick}/>
     </header>
   );
 };

@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 import "../css/skills.css";
 import styled from "styled-components";
+import "../css/Tablet/tablet_skills.css";
+import "../css/Moblie/moblie_skills.css";
+
 
 // const Image = styled.img`
 //   width: 150px;

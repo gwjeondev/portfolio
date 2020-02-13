@@ -2,20 +2,20 @@
 
 @media (max-width: 1024px) {
     .about__container {
-        padding: 80px 0;
+        padding: 30px 0;
     }
     .about__info {
         flex-direction: column;
     }
-    
+
     .about__info .info__avatar img{
-        width: 250px;
+        width: 200px;
         margin-right: 0;
         margin-bottom: 30px;
     }
     
     .info__info {
-        padding: 30px 30px;
+        padding: 30px 20px;
     }
  
 }
