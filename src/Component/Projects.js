@@ -30,7 +30,7 @@ const Projects = () => {
       url: "https://won-developer.github.io/mommentum-clone/",
       image:
         "https://raw.githubusercontent.com/won-developer/img/master/todolist_img.png",
-      uselang: "HTML + CSS + JS",
+      uselang: "HTML / CSS / JS",
       text: "현재 시간과 날씨 API를 활용, 날씨를 확인 할 수 있는 투두 리스트"
     },
     {
