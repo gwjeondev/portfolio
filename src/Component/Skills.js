@@ -53,14 +53,14 @@ const Skills = () => {
   ]);
 
   return (
-    <div className="skills">
-      <div className="skills__container">
-        <div className="skills__title">Skills</div>
-        <div className="skills__set">
+    <div className="sks">
+      <div className="sks__container">
+        <div className="sks__title">Skills</div>
+        <div className="sks__set">
           {skillset.map(skill => {
             return (
-              <div className={`skills__${skill.title} skill`} key={skill.id}>
-                <div className={`${skill.title}`}><span>{skill.level}</span></div>
+              <div className={`sks__${skill.title} sk`} key={skill.id}>
+                <div className="sk__hoverbox"><span className="sk__level">{skill.level}</span></div>
               </div>
             );
           })}

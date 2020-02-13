@@ -10,7 +10,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-weight: bold;
 }
 
 .contact .contact__title {
@@ -22,6 +21,7 @@
     color: rgba(255, 71, 87,1.0);
     justify-content: center;
     align-items: center;
+    font-weight: bold;
 }
 
 .contact .contact__info {
@@ -30,5 +30,6 @@
     justify-content: center;
     align-items: center;
     line-height: 1.4rem;
-    color: #fff;
+    color: #000;
+    opacity: .7;
 }

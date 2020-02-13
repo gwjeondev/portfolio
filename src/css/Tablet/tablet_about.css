@@ -1,17 +1,9 @@
 /* viewport width 1024 이하 */
 
 @media (max-width: 1024px) {
-    .about {
-
-    }
-    
     .about__container {
+        padding: 80px 0;
     }
-    
-    .about .about__title {
-    
-    }
-    
     .about__info {
         flex-direction: column;
     }
@@ -19,34 +11,11 @@
     .about__info .info__avatar img{
         width: 250px;
         margin-right: 0;
+        margin-bottom: 30px;
     }
     
     .info__info {
         padding: 30px 30px;
-    }
-    .info__info .info--list {
-
-    }
-    
-    .info__info .info__list--1 {
-
-    }
-    .info__info .github {
-
-    }
-    .info__info .info__list--1 .github__mark {
-
-    }
-    .info__info .info__list--1 .blog__mark {
-
-    }
-    
-    .info__info .info--list.info__list--2 {
-
-    }
-    
-    .info__info .info__list--5 {
-
     }
  
 }
