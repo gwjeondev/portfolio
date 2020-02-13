@@ -44,7 +44,7 @@ const Header = () => {
   ]);
   return (
     <header className="header">
-      <div className={`header__container ${toggle ? 'toggle' : ''}`}>
+      <div className={`header__container ${toggle ? '' : 'toggle'}`}>
         <ul className="header__list">
           {menu.map(title => {
             return (
@@ -66,7 +66,7 @@ const Header = () => {
           })}
         </ul>
       </div>
-      <GiHamburgerMenu id="toggle-btn" className={`${toggle ? 'toggle' : ''}`}onClick={onClick}/>
+      <GiHamburgerMenu id="toggle-btn" className={`${toggle ? '' : 'toggle'}`}onClick={onClick}/>
     </header>
   );
 };
