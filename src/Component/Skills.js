@@ -1,25 +1,7 @@
 import React, { useState } from "react";
 import "../css/skills.css";
-import styled from "styled-components";
 import "../css/Tablet/tablet_skills.css";
 import "../css/Moblie/moblie_skills.css";
-
-
-// const Image = styled.img`
-//   width: 150px;
-//   height: 150px;
-//   border-radius: 30px;
-//   box-shadow: 0px 0px 20px rgba(150, 150, 150, 1);
-//   margin: 30px;
-// `;
-
-// const imgstyle = {
-//   width: "150px",
-//   height: "150px",
-//   borderRadius: "30px",
-//   boxShadow: "0px 0px 20px rgba(150, 150, 150, 1)",
-//   margin: "30px"
-// };
 
 const Skills = () => {
   const [skillset, setSkillset] = useState([
@@ -45,11 +27,21 @@ const Skills = () => {
     },
     {
       id: 5,
-      title: "C",
+      title: "NodeJS",
       level: "basic"
     },
     {
       id: 6,
+      title: "MongoDB",
+      level: "basic"
+    },
+    {
+      id: 7,
+      title: "C",
+      level: "basic"
+    },
+    {
+      id: 8,
       title: "SQL",
       level: "basic"
     }

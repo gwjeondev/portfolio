@@ -107,4 +107,10 @@
 .sks .sks__SQL {
   background-image: url("https://raw.githubusercontent.com/won-developer/img/master/SQL.png");
 }
+.sks .sks__NodeJS {
+  background-image: url("https://raw.githubusercontent.com/won-developer/img/master/nodemark.png");
+}
+.sks .sks__MongoDB {
+  background-image: url("https://raw.githubusercontent.com/won-developer/img/master/mongodb.png");
+}
 

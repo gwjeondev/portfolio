@@ -1,8 +1,6 @@
 import React, { useState } from "react";
-import styled from "styled-components";
 import "../css/header.css";
 import "../css/Tablet/tablet_header.css";
-import "../css/Moblie/moblie_header.css";
 import { GiHamburgerMenu } from "react-icons/gi";
 import {
   Link,
