@@ -12,7 +12,7 @@ const Projects = () => {
       url: "https://my-first-board.herokuapp.com/",
       image:
         "https://raw.githubusercontent.com/won-developer/img/master/geunwonboard.png",
-      uselang: "Skills : Vanila JS, Node JS, Express, MongoDB, SCSS, Pug, Heroku",
+      uselang: "Skills : Vanila JS, Node JS, Express, MongoDB, SCSS, Pug",
       projectintro: "프로젝트 소개",
       text: ["- Naver를 살짝 카피한 게시판","- Passport Local Login", "- 페이징", "- CkEditor", "- 게시글 검색, 업로드, 좋아요, 조회수", "- 댓글 & 답글"]
     },
@@ -22,7 +22,7 @@ const Projects = () => {
       url: "https://won-wetube.com",
       image:
         "https://raw.githubusercontent.com/won-developer/img/master/wetube.png",
-      uselang: "Skills: Vanila JS, Node JS, Express, MongoDB, SCSS, Pug, AWS",
+      uselang: "Skills: Vanila JS, Node JS, Express, MongoDB, SCSS, Pug",
       projectintro: "프로젝트 소개",
       text: ["- 유튜브 따라 만들기", "- Passport Local, Github, Naver, Kakao Login", "- 영상 검색, 업로드, 녹화, 수정, 좋아요, 조회수",  "- 프로필 관리", "- 댓글", "- 반응형 웹"]
     },
